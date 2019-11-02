@@ -1,0 +1,80 @@
+[
+  {
+    "uri": "C:/RubyProjects/gitlab/ruby-practice-repo/CucumberTest/features/release_one_features/Check_for_nhs_cost_help.feature",
+    "id": "cost-checker-user-story",
+    "keyword": "Feature",
+    "name": "Cost checker user story",
+    "description": "    As a person from Wales\n    I need to know what help I can get with my nhs cost\n    So that I can get the treatment I need",
+    "line": 1,
+    "elements": [
+      {
+        "id": "cost-checker-user-story;acceptance-criteria",
+        "keyword": "Scenario",
+        "name": "Acceptance criteria",
+        "description": "",
+        "line": 6,
+        "type": "scenario",
+        "before": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:2"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11789394100
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I am a person from Wales",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/Check_for_nhs_cost_help_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2488292300
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I put my circumstances into the checker tools",
+            "line": 8,
+            "match": {
+              "location": "features/step_definitions/Check_for_nhs_cost_help_steps.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4027235000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I should get a result of whether I should get help or not",
+            "line": 9,
+            "match": {
+              "location": "features/step_definitions/Check_for_nhs_cost_help_steps.rb:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 147142600
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 636274500
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

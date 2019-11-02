@@ -1,0 +1,26 @@
+dev: &envDataDev
+    browser_name: Chrome
+    browser_version: 53
+    base_url    : https://services.nhsbsa.nhs.uk/check-for-help-paying-nhs-costs/start
+    port        : 8080
+    os_type     : Windows
+    default_time: 120
+    remote_or_local: local
+    remote_url: https://services.nhsbsa.nhs.uk/check-for-help-paying-nhs-costs/start
+browserstack: &envDataDev
+    browser_name: Chrome
+    browser_version: 53
+    os_name    : Windows
+    os_version        : 7
+    screen_resolution: 1024x768
+    remote_url: http://dan1135:Rykfshbfchsdb@hub-cloud.browserstack.com/wd/hub
+test: &envDataTest
+    browser     : Chrome
+    base_url    : https://services.nhsbsa.nhs.uk/check-for-help-paying-nhs-costs/start
+    port        : 9999
+    default_time: 60
+staging: &envDataStaging
+    browser     : IE
+    base_url    : https://services.nhsbsa.nhs.uk/check-for-help-paying-nhs-costs/start
+    port        : 8080
+    default_time: 60

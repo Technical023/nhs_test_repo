@@ -1,0 +1,2 @@
+default: --no-source --color ARCHIVE_RESULTS=no --format pretty --format html --out test_reports/cukesReports/non_parallel/non_parallel_report.html --format json --out test_reports/cukesReports/non_parallel/non_parallel_report.json
+parallel: --no-source --color --format pretty --format html --out test_reports/cukesReports/parallel/parallel_report<%= ENV['TEST_ENV_NUMBER'] %>.html --format json --out test_reports/cukesReports/parallel/parallel_report<%= ENV['TEST_ENV_NUMBER'] %>.json

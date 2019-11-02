@@ -1,0 +1,11 @@
+source 'https://rubygems.org'
+
+gem 'cucumber', '2.99.0'
+gem 'rspec'
+gem 'selenium-webdriver', '3.4.0'
+gem 'parallel_tests'
+gem 'rake'
+gem 'page-object', '~> 2.0'
+gem 'mysql2'
+
+
